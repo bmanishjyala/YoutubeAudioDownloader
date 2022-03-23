@@ -12,4 +12,23 @@ body{
 }
 form{
     width: 80vw;
+    
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    form{
+        width: 90vw;
+       
+    }
+  }
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    }
+    form{
+        width: 95vw;
+    }
+  }
